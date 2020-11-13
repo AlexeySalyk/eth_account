@@ -1,0 +1,31 @@
+{
+  "name": "eth_account",
+  "version": "1.0.0",
+  "description": "Ethereum account generator from secret phrase + salt",
+  "main": "index.js",
+  "dependencies": {
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeySalyk/eth_account.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "ETH",
+    "ethereum",
+    "account",
+    "generator",
+    "web3"
+  ],
+  "author": "Saliuk Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexeySalyk/eth_account/issues"
+  },
+  "homepage": "https://github.com/AlexeySalyk/eth_account#readme"
+}
