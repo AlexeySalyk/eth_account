@@ -7,7 +7,7 @@ class Account {
         this.name = name;
         this.PK = getPrivateKey(name);
         this.address = getAddressFromPK(this.PK);
-        this.addressHash = web3.utils.sha3(this.address.slice(2), { encoding: 'hex' });
+        this.addressHash = web3.utils.soliditySha3(this.address);
     }
 }
 
